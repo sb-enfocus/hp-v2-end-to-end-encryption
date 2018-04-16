@@ -1,0 +1,18 @@
+{
+  "name": "encryption-implementation",
+  "version": "1.0.0",
+  "description": "Encryption implementation library that healthypoints application will import",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js spec/**/*.spec.js"
+  },
+  "author": "Jack Considine <jackconsidine3@gmail.com> (jackconsidine.wordpress.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "virgil-sdk": "^4.5.3"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-node": "^1.14.5"
+  }
+}
